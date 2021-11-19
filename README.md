@@ -46,15 +46,14 @@ props 는 properties 의 줄임말
 부모 컴포넌트에서자식 컴포넌트에 값을 전달할때 
 자식 컴포넌트에서 부모의 값을 받아올때 
 
-React 컴포넌트는 상위 컴포넌트에서 하위 컴포넌트로 데이터(props)가 흐릅니다. 하위 컴포넌트는 전달 받은 props를 읽기만 가능하고, 쓸 수 없습니다. (READONLY)
+React 컴포넌트는 상위 컴포넌트에서 하위 컴포넌트로 데이터(props)가 흐릅니다.
+하위 컴포넌트는 전달 받은 props를 읽기만 가능하고, 쓸 수 없습니다. (READONLY)
 ```
 
 ## onClick 이벤트
 ```
 click  => onClick 
-
 chage => onChange
-
 submit  => onSubmit 
 
 on + 첫글자 대문자 
